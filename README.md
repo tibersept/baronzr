@@ -1,4 +1,4 @@
-# Baronzr
+# Baronzr JS Library
 
 Baronzr is an artificial JS scroll bar that could be easily styled in the days when that was impossible. Today, most browser support [meaningul](https://caniuse.com/?search=scrollbar) styling capabilities for scrollbars. 
 
