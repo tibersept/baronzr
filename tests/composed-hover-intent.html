@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="user-scalable=no" />
+    <title>Composed scrolling test</title>
+    <link rel="stylesheet" type="text/css" href="../css/blocks.css" />
+    <link rel="stylesheet" type="text/css" href="../css/baronzr.css" />
+</head>
+
+<body>
+    <div class="testsection"></div>
+
+    <script src="../js/jquery-2.1.1.js"></script>
+    <script src="../js/jquery.hoverIntent.js"></script>
+    <script src="../js/baron.min.js"></script>
+    <script src="../js/baronzr.js"></script>
+    <script src="../js/blocks.js"></script>
+    <script>
+        $('.testsection').baronzr({effectHover:'intent'});
+        baronzr.initBlocks('composed');
+    </script>
+</body>
+
+</html>

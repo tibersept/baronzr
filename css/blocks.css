@@ -1,0 +1,57 @@
+.testsection {
+    height: 500px;
+    min-height: 300px;
+    border: 1px dashed #3245ef;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.horizontal-scroll-block {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+
+.horizontal-nonscroll-block {
+    width: auto;
+    height: 100px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+
+.vertical-scroll-block {
+    display: inline-block;
+    width: 140px;
+    height: 100%;
+    margin-right: 10px;
+    overflow-x: hidden;
+}
+
+.space-span-block {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    background-color: aquamarine;
+}
+
+.space-div-block {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    background-color: darkolivegreen;
+}
+
+ul.listcontent {
+    list-style-type: none;
+    width: 100%;
+    -webkit-padding-start: 0px;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
+
+.listcontent li {
+    font-size: 16pt;
+    border-bottom: 1px solid darkolivegreen;
+}
